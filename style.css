@@ -1,0 +1,29 @@
+html, body {
+    background-color: #363062;
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#countdown_text {
+    color: #827397;
+    font-size: 150px;
+}
+
+.hours{
+    color: #FA7D09;
+}
+
+.minutes{
+    color: #00A8CC;
+}
+
+.seconds{
+    color: #D8B9C3;
+}
