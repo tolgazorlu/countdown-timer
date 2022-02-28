@@ -1,1 +1,1 @@
-"# countdown-timer" 
+![Countdown Timer Image](/countdown-timer.png "Countdown Timer Image")
