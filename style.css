@@ -1,7 +1,29 @@
+:root {
+    --lightBg: #EEEEEE;
+    --darkBg: #333456;
+    --days: #FF5959;
+    --hours: #FFAD5A;
+    --minutes: #4F9DA6;
+    --seconds: #1A0841;
+    --countdown-text: #7C83FD;
+}
+
+.light-mode {
+    --background-color: var(--lightBg);
+    --darkModeButton-bgcolor: var(--darkBg);
+    --color: var(--lightBg);
+}
+
+.dark-mode {
+    --background-color: var(--darkBg);
+    --darkModeButton-bgcolor: var(--lightBg);
+    --color: var(--darkBg);
+}
+
 html, body {
-    background-color: #363062;
-    font-family: 'Comfortaa', cursive;
-    height: 100%;
+    background-color: var(--background-color);
+    font-family: 'Orbitron', sans-serif;
+    height: 99%;
 }
 
 .container {
@@ -12,18 +34,36 @@ html, body {
 }
 
 #countdown_text {
-    color: #827397;
+    color: #7C83FD;
     font-size: 150px;
 }
 
+.days{
+    color: #FF5959;
+}
+
 .hours{
-    color: #FA7D09;
+    color: #FFAD5A;
 }
 
 .minutes{
-    color: #00A8CC;
+    color: #4F9DA6;
 }
 
 .seconds{
-    color: #D8B9C3;
+    color: #1A0841;
 }
+
+.dark-mode-button {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--darkModeButton-bgcolor);
+    color: var(--color);
+    font-weight: bold;
+    font-size: 20px;
+  }
