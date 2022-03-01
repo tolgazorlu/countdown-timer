@@ -10,7 +10,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css">
 
     <!-- CSS -->
 
@@ -21,9 +25,12 @@
     <script src="index.js"></script>
 
 </head>
-<body>
+<body class="light-mode">
     <div class="container">
-        <p id="countdown_text"><span id="hours" class="hours"></span>h <span id="minutes" class="minutes"></span>m <span id="seconds" class="seconds"></span>s</p>
+        <p id="countdown_text"><span id="days" class="days"></span>d <span id="hours" class="hours"></span>h <span id="minutes" class="minutes"></span>m <span id="seconds" class="seconds"></span>s</p>
+    </div>
+    <div>
+        <button onclick="darkMode()" class="dark-mode-button"><i class="fas fa-adjust"></i></button>
     </div>
 </body>
 </html>
